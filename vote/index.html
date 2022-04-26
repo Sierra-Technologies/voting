@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>ENGINEERING SOCIETY - VOTE</title>
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="./scripts/voting.js"></script>
+	<script src="./scripts/eye.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="top">
+			<h1 id="title" class="hidden"><span id="logo">ENGINEERING <span>SOCIETY</span></span></h1>
+		</div>
+		<div class="login-box animated fadeInUp">
+			<div class="box-header">
+				<h2>VOTING SYSTEM</h2>
+			</div>
+			<label for="category">CATEGORY</label>
+			<br/>
+			<select name="category" id="category">
+				<option value="" selected="selected">Select category</option>
+			</select>
+			<br/>
+			<label for="nominee">NOMINEE</label>
+			<br/>
+			<select name="nominee" id="nominee">
+				<option value="" selected="selected">Select Nominee</option>
+			</select>
+			<br/>
+			<label for="password">PIN</label>
+			<br/>
+			<input name="password" type="password" required="" id="pin">
+			<!-- <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i> -->
+			<br/>
+			<input type="checkbox" onclick="myFunction()">Show Pin
+			<br/>
+			<button type="submit">VOTE</button>
+			<br/>
+			
+		</div>
+	</div>
+</body>
+<footer class="footer">
+	<hr/>
+&copy2022. Developed by Sierra Technologies.
+<br/>
+Online Voting System for the Engineering Society Dinner 
+<br/>
+Contact: <a href="tel:+23276685170">+23276685170</a> | Email: <a href="sierratecnologiessl@gmail.com">sierratecnologiessl@gmail.com</a>
+</footer>
+</html>
